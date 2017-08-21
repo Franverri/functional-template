@@ -2,5 +2,5 @@
 
 (defn only-greater-than-five
   "Verifica que el parámetro sea mayor a cinco."
-  [number]
-   (if (> number 5) "yes" false))
+  [list]
+   (filter (fn [x] (> x 5)) list))
